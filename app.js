@@ -22,7 +22,6 @@ app             = express();
 video           = require('./lib/video');
 
 // all environments
-//app.use(express.favicon());
 app.use(favicon(__dirname+'/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(json());
