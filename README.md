@@ -1,7 +1,7 @@
-# File Uploading and Streaming with Node.js and websockets
+# Video uploading and streaming with Node.js and websockets
 
 By using Node modules BinaryJS and Express, and
-some good ol' client-side Javascripting!
+some client-side Javascripting!
 
 ## What We'll Need
 
