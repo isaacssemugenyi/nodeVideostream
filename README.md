@@ -13,9 +13,6 @@ Node developers out there. It's fast, easy-to-use and well-documented.
 To familiarize yourself with the `express` API, if you haven't already done so,
 check out the official [ExpressJS API documentation](http://www.expressjs.com/api.html)
 
-If `express` is not your cup of tea, you're most welcome to opt it out for something
-you're more comfortable with.
-
 ### BinaryJS
 
 The heart of our video streaming web app! This module uses WebSockets and the
@@ -58,7 +55,7 @@ First, clone the project:
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-cd to your ws-videojs-stream directory, and type this:
+cd to your nodeVideostream directory, and type this:
 
 ```
 $ npm install
