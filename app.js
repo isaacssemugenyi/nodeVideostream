@@ -1,6 +1,7 @@
 /**
- * File Uploading and Streaming with BinaryJS
+ * Video Uploading and Streaming with BinaryJS and Express
  */
+ 
 'use strict';
 
 var BinaryServer, express, favicon, logger; 
