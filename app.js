@@ -3,27 +3,35 @@
  */
 'use strict';
 
-var BinaryServer, express, http, path, app, video, server, bs;
+var BinaryServer, express, favicon, logger; 
+var json, urlencoded, methodOverride, errorHandler; 
+var http, path, app, video, server, bs;
 
-BinaryServer = require('binaryjs').BinaryServer;
-express      = require('express');
-http         = require('http');
-path         = require('path');
-app          = express();
-video        = require('./lib/video');
+BinaryServer    = require('binaryjs').BinaryServer;
+express         = require('express');
+favicon         = require('static-favicon');
+logger          = require('morgan');
+json            = require('body-parser');
+urlencoded      = require('body-parser');
+methodOverride  = require('method-override');
+errorHandler    = require('errorhandler');
+http            = require('http');
+path            = require('path');
+app             = express();
+video           = require('./lib/video');
 
 // all environments
-app.use(express.favicon());
-app.use(express.logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded());
-app.use(express.methodOverride());
-app.use(app.router);
+//app.use(express.favicon());
+app.use(favicon(__dirname+'/public/favicon.ico'));
+app.use(logger('dev'));
+app.use(json());
+app.use(urlencoded());
+app.use(methodOverride());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
 if ('development' == app.get('env')) {
-    app.use(express.errorHandler());
+    app.use(errorHandler());
 }
 
 server = http.createServer(app);
