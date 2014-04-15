@@ -1,4 +1,4 @@
-# Video uploading and streaming with Node.js and websockets
+# Video uploading and streaming with Node.js and WebSockets
 
 By using Node modules BinaryJS and Express, and
 some client-side Javascripting!
@@ -55,7 +55,7 @@ the video server we're building.
 First, clone the project:
 
 ```
-$ git clone https://github.com/zekaf/Node-ws-Videostream.git
+$ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
 cd to your ws-videojs-stream directory, and type this:
