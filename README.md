@@ -55,7 +55,7 @@ the video server we're building.
 First, clone the project:
 
 ```
-$ git clone https://github.com/zekaf/ws-videojs-stream.git
+$ git clone https://github.com/zekaf/Node-ws-Videostream.git
 ```
 
 cd to your ws-videojs-stream directory, and type this:
