@@ -50,10 +50,9 @@ the video server we're building.
 1. Create an instance of the BinaryJS client
 2. Upon connecting to the BinaryJS server, retrieve a list of available videos and present it
 3. Clicking a link in the video list should load the affected video
-
 4. Add a means to upload video files:
-* use **Drag n Drop** for a better UX experience
-* refresh the list of available videos
+  * use **Drag n Drop** for a better UX experience
+  * refresh the list of available videos
 
 ## HTTP video server installation
 
