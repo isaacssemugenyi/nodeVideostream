@@ -58,12 +58,25 @@ the video server we're building.
 * use **Drag n Drop** for a better UX experience
 * refresh the list of available videos
 
-## Quick installation for HTTP version
+## Install the HTTP Video Server
 
-First, clone the project:
+First, create the HTTP video server directory:
+
+```
+$ mkdir HttpVideoServer
+```
+
+cd to the HTTP video server directory and clone the project:
 
 ```
 $ git clone https://github.com/zekaf/nodeVideostream.git
+```
+
+You need to copy package-http.js. 
+cd to your nodeVideostream directory, and type this:
+
+```
+$ cp package-http.js package.js  
 ```
 
 Install dependencies. cd to your nodeVideostream directory, and type this:
@@ -89,22 +102,25 @@ HTTP Video Server started on http://0.0.0.0:3000
 Everything working? Awesome! Open a browser and head for http://localhost:3000 
 
 
-## Quick installation for SPDY version
+## Install the SPDY Video Server
 
-First, clone the project:
+First, create the SPDY video server directory:
+
+```
+$ mkdir SpdyVideoServer
+```
+
+cd to the SPDY video server directory and clone the project:
 
 ```
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-You need app-spdy.js and package-spdy.js files. 
+You need to copy package-spdy.js. 
 cd to your nodeVideostream directory, and type this:
 
 ```
-$ cp app.js app-http.js
-$ mv app-spdy.js app.js
-$ cp package.js package-http.js
-$ mv package-spdy.js package.js  
+$ cp package-spdy.js package.js  
 ```
 
 Install dependencies. cd to your nodeVideostream directory, and type this:
