@@ -1,9 +1,9 @@
 {
-  "name": "nodeVideostream",
+  "name": "nodeVideostreamSPDY",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "start": "node app.js"
+  "start": "node app-spdy.js"
   },
   "dependencies": {
     "express": "~4.0.0",
