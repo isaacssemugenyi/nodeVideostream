@@ -4,34 +4,36 @@ By using Node modules BinaryJS, Express, SPDY (optional), and some client-side J
 
 ## What We'll Need
 
+### Node.js
+
+[Node.js](http://www.nodejs.org/) is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+Download and install [Node.js](http://www.nodejs.org/download/)
+
 ### Express
 
-The defacto Node.js web framework! My framework of choice, and that of many fellow
-Node developers out there. It's fast, easy-to-use and well-documented.
+Express is a minimal and flexible node.js web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications. 
 
-To familiarize yourself with the `express` API, if you haven't already done so,
-check out the official [ExpressJS API documentation](http://www.expressjs.com/api.html)
+To familiarize yourself with the `express` API, check out the official [ExpressJS API documentation](http://www.expressjs.com/api.html)
 
 ### BinaryJS
 
-The heart of our video streaming web app! This module uses WebSockets and the
-BinaryPack serialization scheme to stream binary content back-and-forth between
-the server and the client.
+BinaryJS is a lightweight framework that utilizes websockets to send, stream, 
+and pipe binary data bidirectionally between browser javascript and Node.js.
 
-Want to find out more? Here's the official [BinaryJS Website](http://www.binaryjs.com/),
-and here's the [API documentation](https://github.com/binaryjs/binaryjs/tree/master/doc)
-for good measure.
+Here's the official [BinaryJS Website](http://www.binaryjs.com/),
+and here's the [API documentation](https://github.com/binaryjs/binaryjs/tree/master/doc).
 
-### SPDY (optional)
+### node-spdy (optional)
+
+SPDY Server for node.js. With this module you can create SPDY servers in node.js with natural http module interface and fallback to regular https (for browsers that don't support SPDY yet).
 
 SPDY is an open networking protocol developed primarily at Google for transporting 
 web content. SPDY manipulates HTTP traffic, with particular goals of reducing web page 
 load latency and improving web security. SPDY achieves reduced latency through 
 compression, multiplexing, and prioritization. 
 
-Want to find out more? Read the white paper [SPDY: An experimental protocol for a faster web](http://www.chromium.org/spdy/spdy-whitepaper),
-and here's the [API documentation](https://github.com/indutny/node-spdy)
-for good measure.
+Want to find out more abou SPDY? Read the white paper [SPDY: An experimental protocol for a faster web](http://www.chromium.org/spdy/spdy-whitepaper), and here's the [node-spdy API documentation](https://github.com/indutny/node-spdy).
 
 
 ## The Workflow
