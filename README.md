@@ -97,7 +97,7 @@ First, clone the project:
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-You need app-spdy.js and package-spdy.js SPDY. 
+You need app-spdy.js and package-spdy.js files. 
 cd to your nodeVideostream directory, and type this:
 
 ```
