@@ -1,6 +1,5 @@
 /**
- * Video Uploading and Streaming with BinaryJS and Express 
- # NOTE: use SPDY protocol
+ * Video Uploading and Streaming with BinaryJS, Express and SPDY 
  */
  
 'use strict';
@@ -53,7 +52,7 @@ if ('development' == app.get('env')) {
 server = spdy.createServer(options, app); 
 
 server.listen(3443);    
-console.log('Video Server (SPDY) started on https://0.0.0.0:3443');
+console.log('SPDY Video Server started on https://0.0.0.0:3443');
 
 bs = new BinaryServer({ port: 9000 });
 
