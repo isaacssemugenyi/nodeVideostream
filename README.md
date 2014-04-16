@@ -40,10 +40,9 @@ the video server we're building.
 
 1. Create an instance of the BinaryJS server
 2. Register custom events and handlers for:
-
-* uploading videos
-* requesting for a video
-* listing available videos
+ * uploading videos
+ * requesting for a video
+ * listing available videos
 
 ### Client-side
 
