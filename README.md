@@ -58,7 +58,7 @@ the video server we're building.
 * use **Drag n Drop** for a better UX experience
 * refresh the list of available videos
 
-## Install the HTTP Video Server
+## HTTP video server installation
 
 First, create the HTTP video server directory:
 
@@ -102,7 +102,7 @@ HTTP Video Server started on http://0.0.0.0:3000
 Everything working? Awesome! Open a browser and head for http://localhost:3000 
 
 
-## Install the SPDY Video Server
+## SPDY video server installation
 
 First, create the SPDY video server directory:
 
