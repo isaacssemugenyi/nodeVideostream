@@ -67,12 +67,12 @@ First, clone the project:
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-cd to your nodeVideostream directory, and type this:
+Install dependencies. cd to your nodeVideostream directory, and type this:
 
 ```
 $ npm install
 ```
-This command installing all the stuff listed in the dependencies object (including BinaryJS, Express and SPDY). 
+This command installing all the stuff listed in the dependencies object (including BinaryJS and Express). 
 Once NPM has run its course, you should have a node_modules directory which contains all dependencies for the project.
 
 You now have a fully-functioning app ready and waiting to run. Let's test it out!, type: 
@@ -98,7 +98,7 @@ First, clone the project:
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-You need app.js and package.js SPDY versions 
+You need app-spdy.js and package-spdy.js SPDY. 
 cd to your nodeVideostream directory, and type this:
 
 ```
@@ -106,15 +106,14 @@ $ cp app.js app-http.js
 $ mv app-spdy.js app.js
 $ cp package.js package-http.js
 $ mv package-spdy.js package.js  
-$ npm install
 ```
 
-cd to your nodeVideostream directory, and type this:
+Install dependencies. cd to your nodeVideostream directory, and type this:
 
 ```
 $ npm install
 ```
-This command installing all the stuff listed in the dependencies object (including BinaryJS and Express). 
+This command installing all the stuff listed in the dependencies object (including BinaryJS, Express and SPDY). 
 Once NPM has run its course, you should have a node_modules directory which contains all dependencies for the project.
 
 You now have a fully-functioning app ready and waiting to run. Let's test it out!, type: 
