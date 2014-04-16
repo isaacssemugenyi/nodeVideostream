@@ -8,7 +8,7 @@ By using Node modules BinaryJS for WebSockets binary transfer, Express as web ap
 
 [Node.js](http://www.nodejs.org/) is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 
-Download and install [Node.js](http://www.nodejs.org/download/)
+[Download and install](http://www.nodejs.org/download/) Node.js
 
 ### Express
 
