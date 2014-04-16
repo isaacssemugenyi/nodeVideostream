@@ -1,6 +1,6 @@
-# Video uploading and streaming with Node.js and WebSockets
+# Video uploading and streaming with Node.js
 
-By using Node modules BinaryJS, Express, SPDY (optional), and some client-side Javascripting!
+By using Node modules BinaryJS for WebSockets binary transfer, Express as web application framework, node-spdy for SPDY protocol, and some client-side Javascripting!
 
 ## What We'll Need
 
