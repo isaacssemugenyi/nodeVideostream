@@ -30,7 +30,7 @@ web content. SPDY manipulates HTTP traffic, with particular goals of reducing we
 load latency and improving web security. SPDY achieves reduced latency through 
 compression, multiplexing, and prioritization. 
 
-Want to find out more? Here's a white paper [SPDY chromium Website](http://www.chromium.org/spdy/spdy-whitepaper),
+Want to find out more? Read the white paper [SPDY: An experimental protocol for a faster web](http://www.chromium.org/spdy/spdy-whitepaper),
 and here's the [API documentation](https://github.com/indutny/node-spdy)
 for good measure.
 
