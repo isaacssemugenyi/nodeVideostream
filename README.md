@@ -1,6 +1,6 @@
 # Video uploading and streaming with Node.js
 
-By using Node modules BinaryJS for multiple streams over a single realtime websocket connection. Express as web application framework, node-spdy for SPDY protocol, and some client-side Javascripting!
+By using Node modules BinaryJS for multiple streams over a single realtime websocket connection, Express as the web application framework, node-spdy for SPDY protocol, and some client-side Javascripting!
 
 ## What We'll Need
 
