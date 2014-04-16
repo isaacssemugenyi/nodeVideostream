@@ -37,7 +37,7 @@ if ('development' == app.get('env')) {
 server = http.createServer(app);
 
 server.listen(3000, function () {
-    console.log('Video Server started on http://0.0.0.0:3000');
+    console.log('HTTP Video Server started on http://0.0.0.0:3000');
 });
 
 bs = new BinaryServer({ port: 9000 });
