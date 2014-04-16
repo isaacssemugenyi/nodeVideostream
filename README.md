@@ -26,12 +26,7 @@ and here's the [API documentation](https://github.com/binaryjs/binaryjs/tree/mas
 
 ### node-spdy (optional)
 
-SPDY Server for node.js. With this module you can create SPDY servers in node.js with natural http module interface and fallback to regular https (for browsers that don't support SPDY yet).
-
-SPDY is an open networking protocol developed primarily at Google for transporting 
-web content. SPDY manipulates HTTP traffic, with particular goals of reducing web page 
-load latency and improving web security. SPDY achieves reduced latency through 
-compression, multiplexing, and prioritization. 
+SPDY Server for node.js. With this module you can create SPDY servers in node.js with natural http module interface and fallback to regular https (for browsers that don't support SPDY yet). SPDY is an open networking protocol developed primarily at Google for transporting web content. SPDY manipulates HTTP traffic, with particular goals of reducing web page load latency and improving web security. SPDY achieves reduced latency through compression, multiplexing, and prioritization. 
 
 Want to find out more abou SPDY? Read the white paper [SPDY: An experimental protocol for a faster web](http://www.chromium.org/spdy/spdy-whitepaper), and here's the [node-spdy API documentation](https://github.com/indutny/node-spdy).
 
@@ -56,7 +51,6 @@ the video server we're building.
 2. Upon connecting to the BinaryJS server, retrieve a list of available videos and present it
 3. Clicking a link in the video list should load the affected video
 4. Add a means to upload video files:
-
 * use **Drag n Drop** for a better UX experience
 * refresh the list of available videos
 
