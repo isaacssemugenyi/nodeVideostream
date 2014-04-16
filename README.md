@@ -1,6 +1,6 @@
 # Video uploading and streaming with Node.js
 
-By using Node modules BinaryJS for WebSockets binary transfer, Express as web application framework, node-spdy for SPDY protocol, and some client-side Javascripting!
+By using Node modules BinaryJS for multiple streams over a single realtime websocket connection. Express as web application framework, node-spdy for SPDY protocol, and some client-side Javascripting!
 
 ## What We'll Need
 
@@ -95,7 +95,7 @@ You'll get this:
 HTTP Video Server started on http://0.0.0.0:3000
 ```
 
-Everything working? Awesome! Open a browser and head for http://localhost:3000 
+Everything working? Open a browser and head for http://localhost:3000 
 
 
 ## SPDY video server installation
