@@ -8,7 +8,9 @@ $(document).ready(function () {
 
     $video.attr({
         controls : true,
-        autoplay : true
+        autoplay : false,
+        preload : "metadata",
+        autobuffer: false 
     });
 
     client.on('open', function () {
