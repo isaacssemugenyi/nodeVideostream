@@ -40,7 +40,7 @@ server.listen(3000, function () {
     console.log('HTTP Video Server started on http://0.0.0.0:3000');
 });
 
-bs = new BinaryServer({ port: 9000 });
+bs = new BinaryServer({ port: 9080 });
 
 bs.on('connection', function (client) {
     client.on('stream', function (stream, meta) {
