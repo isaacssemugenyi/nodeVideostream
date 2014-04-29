@@ -67,11 +67,11 @@ cd to the HTTP video server directory and clone the project:
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-You need to copy package-http.js. 
+You need to copy package-http.json. 
 cd to your nodeVideostream directory, and type this:
 
 ```
-$ cp package-http.js package.js  
+$ cp package-http.json package.json  
 ```
 
 Install dependencies. cd to your nodeVideostream directory, and type this:
@@ -111,11 +111,11 @@ cd to the SPDY video server directory and clone the project:
 $ git clone https://github.com/zekaf/nodeVideostream.git
 ```
 
-You need to copy package-spdy.js. 
+You need to copy package-spdy.json. 
 cd to your nodeVideostream directory, and type this:
 
 ```
-$ cp package-spdy.js package.js  
+$ cp package-spdy.json package.json  
 ```
 
 Install dependencies. cd to your nodeVideostream directory, and type this:
