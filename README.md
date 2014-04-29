@@ -92,10 +92,10 @@ $ npm start
 You'll get this: 
 
 ```
-HTTP Video Server started on http://0.0.0.0:3000
+HTTP Video Server started on http://0.0.0.0:3080
 ```
 
-Everything working? Open a browser and head for http://localhost:3000 
+Everything working? Open a browser and head for http://localhost:3080 
 
 
 ## SPDY video server installation
