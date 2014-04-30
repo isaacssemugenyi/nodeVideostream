@@ -54,7 +54,7 @@ server = spdy.createServer(options, app);
 server.listen(3443);    
 console.log('SPDY Video Server started on https://0.0.0.0:3443');
 
-bs = new BinaryServer({ port: 9443 });
+bs = new BinaryServer({ port: 9000 });
 
 bs.on('connection', function (client) {
     client.on('stream', function (stream, meta) {
