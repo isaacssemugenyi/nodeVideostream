@@ -65,7 +65,7 @@ cd to the HTTP video server directory and clone the project:
 
 ```
 $ cd HttpVideoServer
-$ git clone https://github.com/zekaf/nodeVideostream.git
+$ git clone https://github.com/jgfaisca/nodeVideostream.git
 ```
 
 cd to your nodeVideostream directory and copy package-http.json to package.json: 
@@ -110,7 +110,7 @@ cd to the SPDY video server directory and clone the project:
 
 ```
 $ cd SpdyVideoServer
-$ git clone https://github.com/zekaf/nodeVideostream.git
+$ git clone https://github.com/jgfaisca/nodeVideostream.git
 ```
 
 cd to your nodeVideostream directory and copy package-spdy.json to package.json: 
